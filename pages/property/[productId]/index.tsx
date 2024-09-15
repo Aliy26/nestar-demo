@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 const PropertyDetail = () => {
   const router = useRouter();
-  console.log("Product Detial");
   const { productId } = router.query;
   return <div>PROPERTY DETAIL {productId}</div>;
 };
