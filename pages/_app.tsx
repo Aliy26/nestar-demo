@@ -9,6 +9,7 @@ import "../scss/pc/main.scss";
 export default function App({ Component, pageProps }: AppProps) {
   // @ts-ignore
   const [theme, setTheme] = useState(createTheme(light));
+
   // Socket.io, Redux, Mui... Global integration
   return (
     <ThemeProvider theme={theme}>
