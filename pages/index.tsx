@@ -1,5 +1,5 @@
 import withLayoutMain from "@/libs/components/layout/LayoutHome";
-import { Box, Container, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 import { NextPage } from "next";
 import TrendProperties from "@/libs/components/homepage/TrendProperties";
 import "swiper/css";
